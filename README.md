@@ -1,9 +1,11 @@
-# ANTI-VIRUSES GIVE FALSE POSITIVES
-**Becouse My Program Uses "pyautogui" And "keyboard" Lib's The Anti-Viruses Give False Positives**
+##  Anti-Virus False Positives
 
-**You Can Check The Source Code It Is Clear Of Viruses**
+Because this program is packaged with PyInstaller and uses the **pyautogui** and **keyboard** libraries to automate hardware inputs, a few anti-virus engines may flag the executable as a false positive. 
 
-**From VirusTotals VM Checks You Can See It Is Clear**
+You can easily verify that the application is completely safe by checking the open-source code included in this repository.
+
+###  Verified Sandbox Reports
+As shown in the VirusTotal behavior logs below, advanced dynamic analysis sandboxes (like CAPA and Jujubox) show **zero malicious activity**. The application only executes the core automation tasks it was designed for.
 [![image.png](https://i.postimg.cc/K8nVVkZs/image.png)](https://postimg.cc/JszPHhHb)
 
 # Basic Auto Clicker
